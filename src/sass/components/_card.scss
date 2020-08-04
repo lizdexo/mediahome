@@ -1,0 +1,54 @@
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.3em;
+  min-width: 15vw;
+  min-height: 15vw;
+  opacity: 0.8;
+ 
+z-index: 100;
+  text-align: center;
+      
+     transform: perspective(1px) translateZ(0);
+     box-shadow: 0 0 1px transparent;
+     transition: all 0.3s;
+  
+  p{
+  //font-size: calc(1rem + 2vmin);
+   font-size: 6vmin;
+  font-family: "Khula", sans-serif;
+    vertical-align: center;
+  }
+       
+  
+  &:hover, &:focus {
+    outline: 0;
+      cursor: crosshair;     
+      transform: scale(1.1, 1.1);
+      opacity: 100%;
+      cursor: crosshair;
+    
+         
+     transition: all 0.3s ease-out;
+    
+    box-shadow: //1px 1px 50px 5vw rgba(0,0,0,0.1),
+      0 27px 24px 0 rgba(0, 0, 0, 0.2),
+      0 40px 77px 0 rgba(0, 0, 0, 0.22),
+      0 2px 5px 0 rgba(0, 0, 0, 0.26),
+      0 2px 10px 0 rgba(0, 0, 0, 0.16);
+    
+    p {
+     // font-size: 5vmin;
+      //transform: none !important;
+      transition: all 0.2s ease-in;
+    }
+    }
+  
+  &:hover { z-index: 500; }
+  &:active { z-index: 400; }
+  &:focus { z-index: 300; }
+  
+
+  
+}

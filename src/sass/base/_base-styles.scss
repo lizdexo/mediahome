@@ -1,0 +1,30 @@
+::selection {
+  color: #111111;
+  background:  #00ffff;
+  /* WebKit/Blink Browsers */
+}
+
+::-moz-selection {
+  color: #111111;
+  background: #00ffff;
+  /* Gecko Browsers */
+}
+
+body {
+ background: #000000;
+background-image: url("https://i.imgur.com/tPXzGRg.gif"); 
+}
+
+
+// basic links
+
+a:not(.b7) {
+  color: #ffffff;
+}
+
+.b7 {
+  color: #000000;
+}
+
+
+
