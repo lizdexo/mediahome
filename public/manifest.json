@@ -44,11 +44,16 @@
       "src": "https://dl.airtable.com/.attachmentThumbnails/76361dded0ecb99f8c2b48226773a286/0728127f",
       "sizes": "512x512",
       "type": "image/png"
+    },
+    {
+      "src": "https://dl.airtable.com/.attachmentThumbnails/76361dded0ecb99f8c2b48226773a286/0728127f",
+      "sizes": "192x192",
+      "type": "image/png"
     }
   ],
   
   
-  "display": "standalone",
+  "display": "fullscreen",
   "theme_color": "#000000",
   "background_color": "#000000"
 }
