@@ -30,25 +30,28 @@
   ],
   "features": [
     "Cross Platform",
-    "low-latency inking",
+    "cool",
     "fast",
-    "useful AI"
+    "useful"
   ],
   "icons": [
     {
-      "src": "https://dl.airtable.com/.attachmentThumbnails/76361dded0ecb99f8c2b48226773a286/0728127f",
+      "src": "https://dl.airtable.com/.attachments/5558b2d2646a68078b43612c53f35e1d/89a6750d/maskable_icon.png",
       "sizes": "256x256",
-      "type": "image/png"
+      "type": "image/png",
+      "purpose": "maskable any"
     },
     {
-      "src": "https://dl.airtable.com/.attachmentThumbnails/76361dded0ecb99f8c2b48226773a286/0728127f",
+      "src": "https://dl.airtable.com/.attachments/5558b2d2646a68078b43612c53f35e1d/89a6750d/maskable_icon.png",
       "sizes": "512x512",
-      "type": "image/png"
+      "type": "image/png",
+      "purpose": "maskable any"
     },
     {
-      "src": "https://dl.airtable.com/.attachmentThumbnails/76361dded0ecb99f8c2b48226773a286/0728127f",
+      "src": "https://dl.airtable.com/.attachments/5558b2d2646a68078b43612c53f35e1d/89a6750d/maskable_icon.png",
       "sizes": "192x192",
-      "type": "image/png"
+      "type": "image/png",
+      "purpose": "maskable any"
     }
   ],
   
