@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import Card from "./components/Card.jsx";
-import media from "./components/Media.jsx";
 import "./sass/index.scss";
 import Airtable from "airtable";
 
@@ -44,7 +43,7 @@ console.log(localStorage.getItem("session"));
     return (
       <main className="container">
        
-         {this.state.records.map((record, index) => (
+        {this.state.records.map((record, index) => (
                     
           <Card
             key={record.fields["id"]}
@@ -58,6 +57,7 @@ console.log(localStorage.getItem("session"));
  
         
       </main>
+    
     );
   }
 }
@@ -66,6 +66,15 @@ export default App;
 
 /*---
 
+
+ 
+
+
+
+
+
+
+-------------------------
 
     {media.map((open, index, label) => (
                     

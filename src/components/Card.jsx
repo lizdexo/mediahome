@@ -6,6 +6,7 @@ const Card = (props) =>  {
         <a
           href={props.url}
           target="_blank"
+          rel="noopener noreferrer"
           key={props.id}
           className={`card`}
           style={{ backgroundColor: props.color }}
