@@ -8,7 +8,7 @@
 body {
   //@include debug-focus;
   @include vh100;
-  padding: 1em;
+  //padding: 1em;
  display: flex;
   justify-content: center;
   align-items: center;
@@ -17,6 +17,7 @@ body {
 
 .container {
 
+ 
 display: grid;
 grid-template-columns: repeat(3, 1fr);
 grid-template-rows: repeat(3, 1fr);
